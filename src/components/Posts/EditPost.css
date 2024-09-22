@@ -1,0 +1,92 @@
+/* EditPost.css */
+
+.container {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 30px;
+  }
+  
+  h2 {
+    //text-align: center;
+    color: #333;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  label {
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  input[type="text"], textarea {
+    width: 95%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  textarea {
+    height: 150px;
+    width: 550px;
+    resize: vertical;
+  }
+  
+  button {
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    display: inline-block;
+    margin-right: 20px; 
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+.link-button {
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    background-color: #59ac21;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin-right: 20px;
+}
+.link-button:hover {
+  background-color: #4a9e1b; /* Slightly darker green on hover */
+}
+
+#delete-button {
+  background-color: #ff4d4d; /* Red color for delete action */
+  color: #fff; /* White text color */
+  border: none; /* Remove default border */
+  padding: 2px 4px; /* Adjust padding for button size */
+  border-radius: 5px; /* Rounded corners */
+  cursor: pointer; /* Pointer cursor on hover */
+  font-size: 16px; /* Text size */
+  width: 100px;
+  transition: background-color 0.3s, transform 0.3s; /* Smooth transitions */
+}
+
+#delete-button:hover {
+  background-color: #e60000; /* Darker red on hover */
+}
+.button-group {
+  margin-top: 20px; /* Space above buttons */
+  display: flex; /* Align buttons horizontally */
+  gap: 10px; /* Space between buttons */
+}

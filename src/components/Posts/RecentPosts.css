@@ -1,0 +1,10 @@
+/* RecentPosts.css */
+ul {
+    //list-style-type: none; /* Remove bullet points */
+    //padding: 0; /* Optional: Remove default padding */
+  }
+  
+  li {
+    margin-bottom: 15px; /* Add some space between posts */
+  }
+  

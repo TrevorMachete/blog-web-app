@@ -1,0 +1,89 @@
+header {
+  display: flex;
+  color: black;
+  padding: 10px 20px;
+  align-items: center;
+  background-color: pink;
+}
+.logo-text {
+  font-family: serif;
+  font-size: 24px;
+}
+
+.logo-text span {
+  color: #f39c12;
+}
+
+.menu-toggle {
+  display: none;
+}
+.nav {
+  list-style: none;
+  display: flex;
+  gap: 100px;
+  margin-left: auto;
+  position: relative;
+}
+.nav a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 20px;
+  display: block;
+  transition: background-color 0.3s; /* Smooth transition */
+}
+.nav li a {
+  text-decoration: none;
+}
+.nav ul {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #fff;
+  display: none;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  margin-top: 27px;
+  
+}
+
+.nav ul li {
+  text-decoration: none;
+  padding: 10px;
+}
+/* drop-down styling */
+.nav ul ul {
+  display: none;
+  background-color: #ebe0e0;
+  color: black;
+  position: absolute;
+  top: 0;
+  left: 100%;
+  margin-right: 200px;
+}
+
+
+.nav li {
+  position: relative;
+  margin-top: 0;
+}
+
+.nav li:hover {
+    background-color: rgb(113, 173, 184);     
+}
+
+.nav ul li a {
+  color: #333;
+}
+
+.nav ul li a:hover {
+  color: blue;
+}
+.nav ul ul li {
+  padding: 10px;
+}
+.nav li:hover > ul {
+    display: block; /* show drop-down on menu hover*/
+    margin:  auto;
+    
+  }
